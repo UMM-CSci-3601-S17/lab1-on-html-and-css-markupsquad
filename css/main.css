@@ -1,10 +1,14 @@
 h2 {
-    color: red;
+    color: blue;
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
 p {
     font-family: monospace;
+
+    -ms-transform: skew(20deg, 10deg); /* IE 9 */
+    -webkit-transform: skew(20deg, 10deg); /* Safari */
+    transform: skew(20deg, 10deg);
 }
 
 img {
@@ -16,4 +20,39 @@ img {
 
 .centerText {
     text-align: center;
+}
+
+#everything #navbar {
+    text-align: justify;
+}
+
+#everything #navbar li{
+    float: left;
+    text-align: center;
+    display: block;
+    width: 33.3333333333333333333333%
+
+}
+
+#everything #navbar ul {
+    list-style-type: none;
+    background-color: red;
+}
+
+#everything #navbar a {
+    text-decoration: none;
+    /*background-color: #4680d9;
+    color: #000000;*/
+    background-color: yellow;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
 }
