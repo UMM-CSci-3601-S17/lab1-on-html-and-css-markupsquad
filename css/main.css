@@ -1,77 +1,23 @@
-h2 {
-    color: blue;
-    font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
+
+#listnavbar li {
+    float: left;
+    text-align: center;
+    display: block;
+    width: 33.3333333333333333333333%;
+    font-size: 350%;
 }
 
-h1 {
+#embednav {
     float: left;
     width: 100%;
-    font-size: 800%;
-    text-align: center;
-}
-
-p {
-    font-family: monospace;
-
-    /*-ms-transform: skew(20deg, 10deg); /* IE 9 */
-    /*-webkit-transform: skew(20deg, 10deg); /* Safari */
-    /*transform: skew(20deg, 10deg);*/
+    border-width: 0;
+    height: 100px;
 }
 
 img {
-    display: block;
     width: 50%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
-.centerText {
-    text-align: center;
-}
-
-#everything {
-    height: 400%;
-}
-
-#everything #navbar {
-    text-align: justify;
-}
-
-#everything #navbar li{
-    float: left;
-    text-align: center;
-    display: block;
-    width: 33.3333333333333333333333%
-
-}
-
-#everything #navbar ul {
-    list-style-type: none;
-    background-color: red;
-}
-
-#everything #navbar a {
-    text-decoration: none;
-    /*background-color: #4680d9;
-    color: #000000;*/
-    background-color: yellow;
-    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    animation-name: example;
-    animation-duration: 4s;
-}
-
-@keyframes example {
-    0%   {background-color: red;}
-    25%  {background-color: yellow;}
-    50%  {background-color: blue;}
-    100% {background-color: green;}
-}
-
-iframe {
-    border-width: 0;
-    width: 100%;
-}
-
-#navbar {
+#index h1 {
+    font-size: 500%;
 }
