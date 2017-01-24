@@ -1,3 +1,45 @@
+/* ####################################################### */
+/* GLOBAL STYLES                                           */
+/* ####################################################### */
+
+
+img {
+    width: 50%;
+}
+
+.backgrounded {
+    background:radial-gradient(#5e904d,#259d8e);
+    color: #baeaf4;
+}
+
+
+/* ####################################################### */
+/* INDEX.HTML                                              */
+/* ####################################################### */
+
+
+
+#index h1 {
+    font-size: 500%;
+
+    -webkit-margin-before: 16px;/*Removes whitespace around header*/
+    -webkit-margin-after: 20px;/*Removes whitespace around header*/
+    color: #baf4bb;
+
+}
+
+#index p {
+    font-size: larger;
+    font-family: "DejaVu Sans", "Lucida Console", "Verdana";
+}
+
+#index div {
+    clear: both; /*Removed whitespace above navbar*/
+}
+
+/* ####################################################### */
+/* NAVBAR                                                  */
+/* ####################################################### */
 
 #listnavbar li {
     float: left;
@@ -8,16 +50,7 @@
 }
 
 #embednav {
-    float: left;
     width: 100%;
-    border-width: 0;
-    height: 100px;
-}
-
-img {
-    width: 50%;
-}
-
-#index h1 {
-    font-size: 500%;
+    height: 85px;
+    border-width: 0; /*Removes border from navbar*/
 }
