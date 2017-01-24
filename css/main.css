@@ -3,12 +3,19 @@ h2 {
     font-family: "Lucida Grande", "Helvetica Nueue", Arial, sans-serif;
 }
 
+h1 {
+    float: left;
+    width: 100%;
+    font-size: 800%;
+    text-align: center;
+}
+
 p {
     font-family: monospace;
 
-    -ms-transform: skew(20deg, 10deg); /* IE 9 */
-    -webkit-transform: skew(20deg, 10deg); /* Safari */
-    transform: skew(20deg, 10deg);
+    /*-ms-transform: skew(20deg, 10deg); /* IE 9 */
+    /*-webkit-transform: skew(20deg, 10deg); /* Safari */
+    /*transform: skew(20deg, 10deg);*/
 }
 
 img {
@@ -20,6 +27,10 @@ img {
 
 .centerText {
     text-align: center;
+}
+
+#everything {
+    height: 400%;
 }
 
 #everything #navbar {
@@ -55,4 +66,12 @@ img {
     25%  {background-color: yellow;}
     50%  {background-color: blue;}
     100% {background-color: green;}
+}
+
+iframe {
+    border-width: 0;
+    width: 100%;
+}
+
+#navbar {
 }
