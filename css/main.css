@@ -9,7 +9,12 @@ img {
 
 .backgrounded {
     background:radial-gradient(#5e904d,#259d8e);
-    color: #baeaf4;
+    color: #dcf2f4;
+}
+
+footer p {
+    font-size: small;
+    font-family: "DejaVu Sans", "Lucida Console", "Verdana";
 }
 
 
@@ -21,11 +26,10 @@ img {
 
 #index h1 {
     font-size: 500%;
-
     -webkit-margin-before: 16px;/*Removes whitespace around header*/
     -webkit-margin-after: 20px;/*Removes whitespace around header*/
-    color: #baf4bb;
-
+    font-family: "Cambria";
+    color: #e2f4d4;
 }
 
 #index p {
@@ -47,6 +51,23 @@ img {
     display: block;
     width: 33.3333333333333333333333%;
     font-size: 350%;
+}
+
+#listnavbar a {
+    text-decoration: none;
+    font-family: "Lucida Sans Unicode", "Lucida Console", "Verdana";
+    font-style: oblique;
+    background-color: rgba(79, 74, 246, 0.1);
+    display: block;
+    color: #343732;
+}
+
+#listnavbar a:hover {
+    background-color: rgba(227, 231, 248, 0.11);
+}
+
+#listnavbar a:active {
+    background-color: rgba(25, 25, 116, 0.18);
 }
 
 #embednav {
