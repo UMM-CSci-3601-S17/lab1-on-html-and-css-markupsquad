@@ -22,7 +22,17 @@ footer p {
 /* INDEX.HTML                                              */
 /* ####################################################### */
 
+figure {
+    text-align: center;
 
+    display: block;
+}
+
+#storeItem figure {
+    width: 25%;
+    float: left;
+    display: block;
+}
 
 #index h1 {
     font-size: 500%;
