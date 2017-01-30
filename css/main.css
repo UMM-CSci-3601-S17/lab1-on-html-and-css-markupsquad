@@ -24,7 +24,8 @@ footer p {
 
 figure {
     text-align: center;
-
+    padding: none;
+    border: none;
     display: block;
 }
 
@@ -32,7 +33,9 @@ figure {
     width: 33%;
     text-align: center;
     border: none;
+    margin: none;
     display: block;
+    float: left;
 }
 
 #index h1 {
