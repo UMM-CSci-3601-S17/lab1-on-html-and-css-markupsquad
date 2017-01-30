@@ -28,9 +28,10 @@ figure {
     display: block;
 }
 
-#storeItem figure {
-    width: 25%;
-    float: left;
+.storeItem {
+    width: 33%;
+    text-align: center;
+    border: none;
     display: block;
 }
 
@@ -84,4 +85,11 @@ figure {
     width: 100%;
     height: 85px;
     border-width: 0; /*Removes border from navbar*/
+}
+
+footer {
+    display: block;
+}
+
+hr {
 }
