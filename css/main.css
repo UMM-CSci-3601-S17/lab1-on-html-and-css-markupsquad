@@ -7,6 +7,10 @@ img {
     width: 50%;
 }
 
+body {
+    min-height: 100%;
+}
+
 .backgrounded {
     background:radial-gradient(#5e904d,#259d8e);
     color: #dcf2f4;
@@ -24,17 +28,16 @@ footer p {
 
 figure {
     text-align: center;
-    padding: none;
-    border: none;
+    padding: 0;
+    border: 0;
     display: block;
 }
 
 .storeItem {
     width: 33%;
     text-align: center;
-    border: none;
-    margin: none;
-    display: block;
+    border: 0;
+    margin: 0;
     float: left;
 }
 
@@ -90,9 +93,15 @@ figure {
     border-width: 0; /*Removes border from navbar*/
 }
 
-footer {
+.siteFooter {
     display: block;
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
 }
 
-hr {
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
 }
