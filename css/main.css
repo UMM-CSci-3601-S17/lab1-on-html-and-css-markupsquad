@@ -27,18 +27,25 @@ footer p {
 /* ####################################################### */
 
 figure {
-    text-align: center;
-    padding: 0;
-    border: 0;
+ overflow: hidden;
+}
+
+.storeItem:after {
+    content: ".";
+    visibility: hidden;
     display: block;
+    height: 0;
+    clear: both;
 }
 
 .storeItem {
-    width: 33%;
+    width: 31%;
     text-align: center;
     border: 0;
     margin: 0;
     float: left;
+    position: relative;
+    overflow: hidden;
 }
 
 #index h1 {
