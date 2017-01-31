@@ -34,7 +34,9 @@ figure {
 }
 
 .storeItem {
-    width: 33%;
+    width: 30%;
+    height: 260px; /*This is the height of the div containing image _and_ <p>*/
+                /*Changing height changes the size of the container, not the image*/
     text-align: center;
     border: 0;
     margin: 0;
@@ -91,6 +93,10 @@ figure {
     width: 100%;
     height: 85px;
     border-width: 0; /*Removes border from navbar*/
+}
+#embednav::-webkit-scrollbar {
+    overflow: hidden;
+    overflow-y: hidden;
 }
 
 .siteFooter {
