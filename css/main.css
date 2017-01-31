@@ -39,9 +39,7 @@ figure {
 }
 
 .storeItem {
-    width: 30%;
-    height: 260px; /*This is the height of the div containing image _and_ <p>*/
-                /*Changing height changes the size of the container, not the image*/
+    width: 25%;
     text-align: center;
     border: 0;
     margin: 0;
